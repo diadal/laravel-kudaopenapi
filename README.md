@@ -74,9 +74,8 @@ Examples of what you can do:
 public function GetBankList()
     {
 
-        $data = 'NG';
-        $data = $data;
-        return $this->KudaOpenApi->GetBankList($data);
+        
+        return $this->KudaOpenApi->GetBankList();
     }
 
 
@@ -88,7 +87,7 @@ public function GetBankList()
 public function OtherMethods()
     {
 
-        $data = [];
+        $data = [...];
         return $this->KudaOpenApi->OtherMethods($data);
     }
 ```
