@@ -31,6 +31,9 @@
   },
   "minimum-stability": "stable",
   "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.1"
+    },
     "laravel": {
       "providers": [
         "Diadal\\Kuda\\KudaServiceProvider"
